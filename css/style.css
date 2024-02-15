@@ -31,6 +31,11 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 }
+.button {
+	background-color: var(--color-button-blue);
+	color: var(--color-designit);
+	padding: 5px 10px;
+}
 /* flex */
 .d-flex {
     display: flex;
@@ -60,14 +65,14 @@ ul li a {
 	color: var(--color-footer);
 	text-decoration: none;
 }
+
 nav {
 	height: 70px;
 }
 /* hero */
 #hero {
 	background-color: var(--color-jumbotron-blue);
-	width: 100vw;
-	
+	width: 100vw;	
 }
 /* main */
 main {
