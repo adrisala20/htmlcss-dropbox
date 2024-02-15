@@ -27,6 +27,7 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 30px;
+	position: relative;
 }
 .small {
 	max-width: 1000px;
@@ -94,9 +95,20 @@ h1 {
 	padding-bottom: 30px;
 }
 #hero .fa.solid {
-	font-size: xx-large;
+	font-size: 4em;
 	font-weight: bold;
 
+}
+.d-reverse{
+	flex-direction: row-reverse;
+}
+#hero img {
+	display: block;
+	position: relative;
+	width: 40%;
+	right: px;
+	bottom:0;
+	transform: translate(50px 50px);
 }
 /* main */
 main {
