@@ -84,9 +84,20 @@ nav {
 h1 {
 	font-size: 4em;
 	font-weight: bolder;
+}
+#hero span {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+.p-bottom {
 	padding-bottom: 30px;
 }
+#hero .fa.solid {
+	font-size: xx-large;
+	font-weight: bold;
 
+}
 /* main */
 main {
 
