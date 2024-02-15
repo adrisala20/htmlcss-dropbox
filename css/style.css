@@ -4,6 +4,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+ul {
+	list-style: none;
+}
 /* general */
 body {
     font-family: "Open Sans", sans-serif;
@@ -31,7 +34,10 @@ body {
 /* flex */
 .d-flex {
     display: flex;
-
+}
+.align-center {
+	align-items: center;
+	align-content: center;
 }
 .s-between {
     justify-content: space-between;
@@ -42,12 +48,20 @@ body {
 /* header */
 header {
 	width: 100vw;
-	height: 70px;
-	background-color: var(--color-dark-red);
 	color: var(--color-designit);
 	/* position: fixed;
 	top: 0;
 	left: 0; */
+}
+header nav div ul li a,
+ul li a {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: var(--color-footer);
+	text-decoration: none;
+}
+nav {
+	height: 70px;
 }
 /* hero */
 #hero {
