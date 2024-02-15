@@ -60,11 +60,14 @@ body {
 /* header */
 header {
 	width: 100vw;
+
+	background-color: white;
 	color: var(--color-designit);
 	overflow-y: auto;
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 3000;
 }
 header nav div ul li a,
 ul li a {
@@ -99,16 +102,10 @@ h1 {
 	font-weight: bold;
 
 }
-.d-reverse{
-	flex-direction: row-reverse;
-}
-#hero img {
+div img {
 	display: block;
 	position: relative;
-	width: 40%;
-	right: px;
-	bottom:0;
-	transform: translate(50px 50px);
+	width: 30%;
 }
 /* main */
 main {
