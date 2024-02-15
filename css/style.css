@@ -100,12 +100,12 @@ h1 {
 #hero .fa.solid {
 	font-size: 4em;
 	font-weight: bold;
-
 }
-div img {
-	display: block;
-	position: relative;
+#hero img {
 	width: 30%;
+	position: absolute;
+	right: 0;
+	bottom:-50px;
 }
 /* main */
 main {
