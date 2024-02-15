@@ -1,5 +1,9 @@
 /* reset */
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 /* general */
 body {
     font-family: "Open Sans", sans-serif;
@@ -38,7 +42,7 @@ body {
 /* header */
 header {
 	width: 100vw;
-	height: 50px;
+	height: 70px;
 	background-color: var(--color-dark-red);
 	color: var(--color-designit);
 	/* position: fixed;
