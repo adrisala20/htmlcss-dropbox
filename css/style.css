@@ -81,9 +81,14 @@ body {
 .p-top20 {
 	padding-top: 20px;
 }
+.p-top15 {
+	padding-top: 15px;
+}
 .m-top20 {
 	margin-top: 20px;
-
+}
+.p-left50 {
+	padding-left: 50px;
 }
 .border {
 	border: 1px solid rgb(203, 201, 201);
@@ -115,6 +120,7 @@ header {
 
 	background-color: white;
 	color: var(--color-designit);
+	box-shadow: 0px 1px 2px rgb(220 216 216);
 	overflow-y: auto;
 	position: fixed;
 	top: 0;
@@ -239,8 +245,10 @@ main {
 	padding-left: 1em;
 	text-indent: 1em each-line;
 }
-/* div row */
-
+/* second section */
+#partner img {
+	width: 100%;
+}
 /* footer */
 footer {
 	background-color: var(--color-footer);
