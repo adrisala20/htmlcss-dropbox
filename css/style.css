@@ -249,6 +249,20 @@ main {
 #partner img {
 	width: 100%;
 }
+/* third section */
+#card {
+	margin-top: 100px;
+}
+#card h3 {
+	text-align: center;
+	gap: 10px;
+}
+.cards {
+	width: calc(100% / 3 - 10px);
+}
+.cards img {
+	width: 100%;
+}
 /* footer */
 footer {
 	background-color: var(--color-footer);
