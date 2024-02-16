@@ -72,6 +72,15 @@ body {
 .p-bottom30 {
 	padding-bottom: 30px;
 }
+.p-bottom {
+	padding-bottom: 100px;
+}
+.p-bottom {
+	padding-bottom: 150px;
+}
+.p-top {
+	padding-top: 100px;
+}
 .p-top70 {
 	padding-top: 70px;
 }
@@ -86,6 +95,9 @@ body {
 }
 .m-top20 {
 	margin-top: 20px;
+}
+.m-bottom100 {
+	margin-bottom: 100px;
 }
 .p-left50 {
 	padding-left: 50px;
@@ -252,17 +264,21 @@ main {
 /* third section */
 #card {
 	margin-top: 100px;
+	word-wrap: break-word;
 }
 #card h3 {
 	text-align: center;
-	gap: 10px;
 }
 .cards {
-	width: calc(100% / 3 - 10px);
+	width: calc(100% / 3 - 20px);
+	padding-right: 20px;
+	padding-top: 20px;
 }
 .cards img {
 	width: 100%;
 }
+/* fifth section */
+
 /* footer */
 footer {
 	background-color: var(--color-footer);
