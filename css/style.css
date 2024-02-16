@@ -45,6 +45,9 @@ body {
 	border: 1px solid var(--color-button-blue);
 	cursor:pointer;
 }
+.btn-default {
+	
+}
 .strong {
 	font-weight: bold;
 }
@@ -216,6 +219,10 @@ main {
 }
 .fa.solid {
 	padding-right: 10px;
+}
+ul li span {
+	padding-left: 1em;
+	text-indent: 1.5em;
 }
 /* footer */
 footer {
