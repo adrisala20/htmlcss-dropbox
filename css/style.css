@@ -29,16 +29,34 @@ body {
 	padding: 30px;
 	position: relative;
 }
-.small {
+.small-container{
 	max-width: 1000px;
 	margin: 0 auto;
 }
+.debug {
+	border: 2px solid red;
+}
+
+/* utility */
 .button {
 	background-color: var(--color-button-blue);
 	color: var(--color-designit);
 	padding: 5px 10px;
 	border: 1px solid var(--color-button-blue);
 	cursor:pointer;
+}
+.right {
+	width: 40%;
+	overflow-y: auto;
+}
+.left { 
+	width: 60%;
+}
+.p-top70 {
+	padding-top: 70px;
+}
+.p-top50 {
+	padding-top: 50px;
 }
 /* flex */
 .d-flex {
@@ -55,7 +73,7 @@ body {
     border: 2px 2px solid red;
 }
 .wrap {
-	flex-wrap:wrap-reverse;
+	flex-wrap:wrap;
 }
 /* header */
 header {
@@ -87,7 +105,10 @@ nav {
 }
 h1 {
 	font-size: 4em;
-	font-weight: bolder;
+	font-weight: bold;
+}
+#hero p {
+	display: block;
 }
 #hero span {
 	display: block;
@@ -98,19 +119,74 @@ h1 {
 	padding-bottom: 30px;
 }
 #hero .fa.solid {
-	font-size: 4em;
+	font-size: 2.5em;
 	font-weight: bold;
 }
 #hero img {
-	width: 30%;
-	position: absolute;
+	display: block;
+	width: 100%;
+	position: relative;
 	right: 0;
-	bottom:-50px;
+	bottom: 0;
+}
+.container-hero {
+	height: 350px;
 }
 /* main */
 main {
+	padding-top: 100px;
 
 }
+/* first section */
+.container-check {
+	display: block;
+	position: relative;
+	padding-left:35px;
+	margin-right: 50px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+.container-check input {  
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.container-check .checkmart {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: var(--color-button-blue);
+	border-radius: 50%;
+}
+.container-check:hover input ~ .checkmark {
+	background-color: var(--color-designit);
+  }
+.container-check input:checked ~ .checkmark {
+	background-color: var(--color-button-blue);
+  }
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  .container-check input:checked ~ .checkmark:after {
+	display: block;
+  }
+  .container-check .checkmark:after {
+	top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background:var(--color-designit);
+}
+
 /* footer */
 footer {
 	background-color: var(--color-footer);
