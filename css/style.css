@@ -46,10 +46,12 @@ body {
 	cursor:pointer;
 }
 .btn-default {
-	
+	width: 90%;
+	margin: 25px auto;
 }
 .strong {
 	font-weight: bold;
+	font-size: 15px;
 }
 .right {
 	width: 40%;
@@ -75,6 +77,16 @@ body {
 }
 .p-top50 {
 	padding-top: 50px;
+}
+.p-top20 {
+	padding-top: 20px;
+}
+.m-top20 {
+	margin-top: 20px;
+
+}
+.border {
+	border: 1px solid rgb(203, 201, 201);
 }
 
 /* flex */
@@ -220,10 +232,15 @@ main {
 .fa.solid {
 	padding-right: 10px;
 }
-ul li span {
-	padding-left: 1em;
-	text-indent: 1.5em;
+.column ul li {
+	line-height: 2em;
 }
+.span {
+	padding-left: 1em;
+	text-indent: 1em each-line;
+}
+/* div row */
+
 /* footer */
 footer {
 	background-color: var(--color-footer);
