@@ -72,13 +72,13 @@ body {
 .p-bottom30 {
 	padding-bottom: 30px;
 }
-.p-bottom {
+.p-bottom80 {
+	padding-bottom: 80px;
+}
+.p-bottom100{
 	padding-bottom: 100px;
 }
-.p-bottom {
-	padding-bottom: 150px;
-}
-.p-top {
+.p-top100 {
 	padding-top: 100px;
 }
 .p-top70 {
@@ -277,8 +277,22 @@ main {
 .cards img {
 	width: 100%;
 }
-/* fifth section */
-
+/* fourth section */
+.p-top100 h2 {
+	font-size: 2vw;
+}
+/* aside */
+#logos {
+	width: calc(100% / 3);
+}
+.logo {
+	width: 50%;
+	aspect-ratio: 1 / 1;
+	/* filter: invert(100%); */
+}
+.design img {
+	background-color: var(--color-designit-green);
+}
 /* footer */
 footer {
 	background-color: var(--color-footer);
