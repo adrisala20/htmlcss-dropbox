@@ -63,6 +63,9 @@ body {
 .p-20{
 	padding: 20px;
 }
+.p-30 {
+	padding: 30px;
+}
 .p-bottom15 {
 	padding-bottom: 10px;
 }
@@ -71,6 +74,9 @@ body {
 }
 .p-bottom30 {
 	padding-bottom: 30px;
+}
+.p-bottom50 {
+	padding-bottom: 50px;
 }
 .p-bottom80 {
 	padding-bottom: 80px;
@@ -109,6 +115,9 @@ body {
 /* flex */
 .d-flex {
     display: flex;
+}
+.flex-reverse {
+	flex-direction: row-reverse;
 }
 .align-center {
 	align-items: center;
@@ -166,9 +175,6 @@ h1 {
 	display: block;
 	padding-top: 20px;
 	padding-bottom: 70px;
-}
-.p-bottom {
-	padding-bottom: 30px;
 }
 #hero .fa.solid {
 	font-size: 2.5em;
@@ -323,6 +329,13 @@ main {
 }
 .company img {
 	width: 100%;
+}
+/* fifth section */
+.bg-celeste {
+	background-color:var(--color-jumbotron-blue);
+}
+.left h3 {
+	color:#61082b;
 }
 /* footer */
 footer {
