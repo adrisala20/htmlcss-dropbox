@@ -34,7 +34,7 @@ body {
 	margin: 0 auto;
 }
 .debug {
-	border: 2px solid red;
+	border: 5px solid red;
 }
 
 /* utility */
@@ -284,14 +284,45 @@ main {
 /* aside */
 #logos {
 	width: calc(100% / 3);
+	border: 3px solid #0061ff;
 }
 .logo {
 	width: 50%;
 	aspect-ratio: 1 / 1;
-	/* filter: invert(100%); */
+	border: 2px solid red;	
 }
-.design img {
+.logo img {
+	width: 100%;
+	/* filter: invert(100%); */
+	object-fit: contain;
+}
+.designit {
 	background-color: var(--color-designit-green);
+	
+}
+.arizona {
+	background-color: var(--color-asu);
+}
+.florida {
+	background-color: var(--color-florida);
+}
+.topps {
+	background-color: var(--color-dark-red);
+}
+.bicycle {
+	background-color: var(--color-dark-red);
+}
+.hearst {
+	background-color: var(--color-jumbotron-blue);
+}
+.lonely {
+	background-color: var(--color-lonely-planet);
+}
+.clear {
+	background-color: var(--color-yellow);
+}
+.company img {
+	width: 100%;
 }
 /* footer */
 footer {
