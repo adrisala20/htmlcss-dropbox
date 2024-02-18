@@ -291,7 +291,7 @@ main {
 /* aside */
 #logos {
 	width: calc(100% / 3);
-	border: 3px solid #0061ff;
+	padding: 0;
 }
 .logo {
 	width: 50%;
@@ -301,11 +301,10 @@ main {
 .logo img {
 	width: 100%;
 	/* filter: invert(100%); */
-	object-fit: contain;
+	background-size: cover;
 }
 .designit {
-	background-color: var(--color-designit-green);
-	
+	background-color: var(--color-designit-green);	
 }
 .arizona {
 	background-color: var(--color-asu);
@@ -338,6 +337,46 @@ main {
 .left h3 {
 	color:#61082b;
 }
+/* last section */
+/* details {
+	position: relative;
+	transition: all .3s;
+}
+details [open] {
+	min-height: 50px;
+}
+summary {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+summary:focus {
+	outline: none;
+}
+summary:focus::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: absolute;
+}
+.control-icon {
+	transition: .3s ease;
+	pointer-events: none;
+  }
+  
+  .control-icon-close {
+	display: none;
+  }
+  
+  details[open] .control-icon-close {
+	display: initial;
+	transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+	display: none;
+  } */
 /* footer */
 footer {
 	background-color: var(--color-footer);
@@ -347,4 +386,7 @@ footer {
 footer ul li a {
 	color: var(--color-designit);
 	line-height: 3em;
+}
+#footer-bottom {
+	color: var(--color-designit);
 }
