@@ -168,6 +168,7 @@ ul li a {
 }
 nav {
 	height: 70px;
+	padding-right: 30px;
 }
 /* hero */
 #hero {
@@ -201,12 +202,15 @@ h1 {
 .container-hero {
 	height: 350px;
 }
-/* main */
+.button:hover, .button:active {
+	background-color: var(--color-florida);
+}
+							/* main */
 main {
 	padding-top: 100px;
 
 }
-/* first section */
+							/* first section */
 .container-check {
 	display: block;
 	position: relative;
@@ -276,11 +280,17 @@ span {
 .column .fa-check {
 	color: var(--color-button-blue);
 }
-/* second section */
+.btn-default:hover, .btn-default:active {
+	background-color: var(--color-florida);
+}
+						/* second section */
 #partner img {
 	width: 100%;
 }
-/* third section */
+button {
+	cursor: pointer;
+}
+						/* third section */
 #card {
 	margin-top: 100px;
 	word-wrap: break-word;
@@ -296,14 +306,14 @@ span {
 .cards img {
 	width: 100%;
 }
-/* fourth section */
+						/* fourth section */
 .p-top100 h2 {
 	font-size: 2vw;
 }
 .small-container a {
 	color: var(--color-button-blue);
 }
-/* aside */
+						/* aside */
 #logos {
 	width: 100%;
 	padding: 0;
