@@ -327,6 +327,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 .logo img {
 	width: 80%;
@@ -335,29 +336,62 @@ button {
 .designit {
 	background-color:#a2d39b;
 }
+
 .designit {
 	background-color: var(--color-designit-green);	
+}
+.designit:hover, .designit:active {
+	background-color: var(--color-designit-green);
+	border: 10px solid rgb(195, 231, 195);	
 }
 .arizona {
 	background-color: var(--color-asu);
 }
+.arizona:hover, .arizona:active {
+	background-color: var(--color-asu);
+	border: 10px solid rgb(160, 11, 11) ;
+}
 .florida {
 	background-color: var(--color-florida);
+}
+.florida:hover, .florida:active {
+	background-color: var(--color-florida);
+	border: 10px solid rgb(175, 226, 245);
 }
 .topps {
 	background-color: var(--color-dark-red);
 }
+.topps:hover, .topps:active {
+	background-color: var(--color-dark-red);
+	border: 10px solid rgb(238, 80, 80);
+}
 .bicycle {
 	background-color: var(--color-dark-red);
+}
+.bicycle:hover, .bicycle:active {
+	background-color: var(--color-dark-red);
+	border: 10px solid rgb(241, 95, 95);
 }
 .hearst {
 	background-color: var(--color-jumbotron-blue);
 }
+.hearst:hover, .hearst:active {
+	background-color: var(--color-jumbotron-blue);
+	border: 10px solid rgb(215, 237, 248);
+}
 .lonely {
 	background-color: var(--color-lonely-planet);
 }
+.lonely:hover, .lonely:active {
+	background-color: var(--color-lonely-planet);
+	border: 10px solid rgb(15, 15, 208);
+}
 .clear {
 	background-color: var(--color-yellow);
+}
+.clear:hover, .clear:active {
+	background-color: var(--color-yellow);
+	border: 10px solid rgb(244, 244, 153);
 }
 #company {
 	overflow-y: auto;
