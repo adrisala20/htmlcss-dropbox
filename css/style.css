@@ -170,6 +170,22 @@ nav {
 	height: 70px;
 	padding-right: 30px;
 }
+nav div ul li {
+	position: relative;
+}
+.dropdown-content {
+	width: 200px;
+	background-color: blueviolet;
+	color: #000000;
+	position: absolute;
+	left: 0;
+	top:100%;
+	z-index: 3001;
+	display: none;
+}
+nav div ul li:hover .dropdown-content:active {
+	display: block;
+}
 /* hero */
 #hero {
 	background-color: var(--color-jumbotron-blue);
@@ -412,46 +428,24 @@ button {
 .left h3 {
 	color:#61082b;
 }
-/* last section */
-/* details {
-	position: relative;
+									/* last section */
+details {
+	list-style: none;
 	transition: all .3s;
-}
-details [open] {
-	min-height: 50px;
+	justify-content: space-between;
 }
 summary {
 	display: flex;
 	justify-content: space-between;
 	cursor: pointer;
 }
-summary:focus {
-	outline: none;
-}
-summary:focus::after {
-	content: "";
-	height: 100%;
-	width: 100%;
+details [open]>
+summary:after {
 	display: block;
-	position: absolute;
+	font-family: "font Awesome 6 free";
+	content: "\f107";
+	min-height: 50px;
 }
-.control-icon {
-	transition: .3s ease;
-	pointer-events: none;
-  }
-  
-  .control-icon-close {
-	display: none;
-  }
-  
-  details[open] .control-icon-close {
-	display: initial;
-	transition: .3s ease;
-  }
-  
-  details[open] .control-icon-expand {
-	display: none;
-  } */
 /* footer */
 footer {
 	background-color: var(--color-footer);
